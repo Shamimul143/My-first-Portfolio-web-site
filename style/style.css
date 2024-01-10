@@ -217,3 +217,16 @@ main{
         border:0;
         /* width: 461px; */
     }
+
+
+    @media screen  and (max-width:576px){
+        .skill-continar, .resume-continer, .abut-info-container {
+            flex-direction: column;
+        }
+
+        .abut-section,.what-decription{
+            padding: 20px;
+        }
+
+        
+    }
